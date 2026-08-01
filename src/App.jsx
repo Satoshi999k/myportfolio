@@ -621,9 +621,9 @@ function App() {
       {certModalOpen ? (
         <div className="cert-modal-backdrop" role="dialog" aria-modal="true">
           <div className="cert-modal">
-            <div className="modal-actions">
-              <div style={{ fontWeight: 700 }}>{CERTIFICATES[0].title}</div>
-              <div>
+            <div className="modal-header">
+              <div className="modal-title">{CERTIFICATES[0].title}</div>
+              <div className="modal-actions">
                 <a href={certModalSrc} download className="modal-download">Download</a>
                 <button className="modal-close" onClick={() => setCertModalOpen(false)}>Close</button>
               </div>
