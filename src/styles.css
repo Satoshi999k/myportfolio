@@ -162,10 +162,15 @@ section{scroll-margin-top:calc(var(--topbar-h) + 24px);}
 /* Modal for certificate preview */
 .cert-modal-backdrop{position:fixed;inset:0;background:rgba(3,6,8,0.65);display:flex;align-items:center;justify-content:center;z-index:120;}
 .cert-modal{background:var(--bg-elevated);border-radius:12px;border:1px solid var(--border);padding:18px;max-width:880px;width:92%;max-height:90vh;overflow:auto;display:flex;flex-direction:column;gap:12px;}
-.cert-modal .modal-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;}
+.cert-modal .modal-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;}
 .cert-modal img{width:100%;height:auto;border-radius:6px;border:1px solid var(--border);}
-.cert-modal .modal-close{background:transparent;border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:8px;cursor:pointer}
-.cert-modal .modal-download{background:var(--accent);color:#14120a;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+.cert-modal .modal-close{background:transparent;border:1px solid var(--border);color:var(--text);padding:10px 16px;border-radius:12px;cursor:pointer;min-width:120px;text-align:center}
+.cert-modal .modal-download{background:var(--accent);color:#14120a;padding:10px 16px;border-radius:12px;border:none;cursor:pointer;min-width:120px;text-align:center}
+.cert-modal .modal-actions > button{flex:1;}
+@media (max-width:560px){
+  .cert-modal .modal-actions{flex-direction:column;align-items:stretch;}
+  .cert-modal .modal-actions > button{width:100%;}
+}
 
 /* Custom scrollbar for the certificate modal */
 .cert-modal{
