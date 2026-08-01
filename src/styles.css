@@ -173,14 +173,13 @@ section{scroll-margin-top:calc(var(--topbar-h) + 24px);}
   padding:12px 18px;
   border-radius:12px;
   min-height:48px;
-  width:100%;
   box-sizing:border-box;
 }
 .cert-modal .modal-close{background:transparent;border:1px solid var(--border);color:var(--text);}
 .cert-modal .modal-download{background:var(--accent);color:#14120a;border:none;}
 @media (max-width:560px){
   .cert-modal .modal-actions{flex-direction:column;align-items:stretch;}
-  .cert-modal .modal-actions > *{flex:1 1 auto;min-width:0;}
+  .cert-modal .modal-actions > *{width:100%;min-width:0;}
 }
 
 /* Custom scrollbar for the certificate modal */
