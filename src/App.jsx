@@ -392,13 +392,23 @@ function App() {
                   )}
                 </div>
                 <p>
-                  I'm a full-stack developer who enjoys turning fuzzy ideas into working
-                  software. I care about clean code, thoughtful UX, and shipping things
-                  that actually get used.
+                  My journey began during Senior High School in the ICT Programming strand, 
+                  where I wrote my first lines of code and discovered how much I enjoyed 
+                  creating software. Since then, I've continued learning through university, 
+                  personal projects, documentation, and hands-on experience.
                 </p>
                 <p>
-                  Outside of coding, I like exploring new tools, contributing to small
-                  open-source projects, and constantly finding new things to learn.
+                  Over the years, I've developed various systems including inventory 
+                  management platforms, event management systems, barangay information 
+                  systems, e-commerce websites, and other full-stack web applications. Each 
+                  project has strengthened my understanding of frontend development, backend 
+                  architecture, databases, APIs, authentication, and software design.
+                </p>
+                <p>
+                  Beyond coding, I continuously explore new technologies, development 
+                  practices, and AI-powered tools that help me write better code, improve 
+                  productivity, and stay current with the ever-changing world of software 
+                  development.
                 </p>
               </div>
               <div className="about-timeline reveal">
