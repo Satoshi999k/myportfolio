@@ -109,11 +109,18 @@ const CERTIFICATES = [
     link: '/images/marlo2.jpg'
   },
   {
-    title: 'National Certificate II for Computer System Servicing',
-    issuer: 'TESDA',
-    date: '2023',
-    link: '/images/marlo2.jpg'
+    title: 'Generative AI Mastermind: ChatGPT, Claude and more',
+    issuer: 'OutSkill',
+    date: '2026',
+    link: '/images/ai_certificate.jpg'
+  },
+  {
+    title: 'IT Customer Support Basic Course',
+    issuer: 'Cisco Networking Academy',
+    date: '2026',
+    link: '/images/itsupport.jpg'
   }
+  
 
 ];
 
