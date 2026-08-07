@@ -120,8 +120,6 @@ const CERTIFICATES = [
     date: '2026',
     link: '/images/itsupport.jpg'
   }
-  
-
 ];
 
 const SOCIALS = [
