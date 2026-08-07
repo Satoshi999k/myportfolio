@@ -149,7 +149,7 @@ section{scroll-margin-top:calc(var(--topbar-h) + 24px);}
 .project-links{display:flex;gap:16px;padding-top:14px;border-top:1px solid var(--border-soft);flex-wrap:nowrap;overflow-x:auto;}
 .project-links a{display:flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:.8rem;color:var(--text-secondary);transition:color .25s var(--ease);white-space:nowrap;}
 .project-links a:hover{color:var(--accent);}
-.cert-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px;display:flex;gap:16px;align-items:flex-start;transition:transform .3s var(--ease), border-color .3s var(--ease);height:100%;}
+.cert-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px;display:flex;gap:16px;align-items:flex-start;transition:transform .3s var(--ease), border-color .3s var(--ease);}
 .cert-card:hover{transform:translateY(-4px);border-color:var(--accent-dim);}
 .cert-icon{width:44px;height:44px;flex-shrink:0;border-radius:10px;background:var(--bg-elevated);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--accent);}
 .cert-title{font-family:var(--font-display);font-weight:600;font-size:1rem;margin-bottom:4px;}
@@ -258,12 +258,8 @@ section{scroll-margin-top:calc(var(--topbar-h) + 24px);}
   .project-body{padding:18px;}
   .code-window{padding:0;}
   .code-body{overflow-x:auto;}
-  .cert-card{flex-direction:column;align-items:stretch;min-height:180px;display:flex;gap:16px;height:260px;}
+  .cert-card{flex-direction:column;align-items:stretch;}
   .cert-card .cert-meta{flex-direction:column;align-items:flex-start;}
-  /* Ensure the right-hand content fills the card vertically on small screens */
-  .cert-card > div{display:flex;flex-direction:column;justify-content:space-between;flex:1 1 auto;padding-bottom:8px;}
-  /* Center the icon when the layout stacks vertically */
-  .cert-icon{margin:16px auto 0;}
   .contact-actions{flex-direction:column;align-items:center;}
   .contact-actions a{width:100%;max-width:none;}
   .contact-actions .btn{width:100%;}
