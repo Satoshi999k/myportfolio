@@ -115,7 +115,7 @@ const CERTIFICATES = [
     link: '/images/ai_certificate.jpg'
   },
   {
-    title: 'IT Customer Support Basic Course',
+    title: 'Cisco IT Customer Support Basic Course',
     issuer: 'Cisco Networking Academy',
     date: '2026',
     link: '/images/itsupport.jpg'
