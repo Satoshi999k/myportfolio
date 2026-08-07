@@ -105,9 +105,16 @@ const CERTIFICATES = [
   {
     title: 'National Certificate II for Computer System Servicing',
     issuer: 'TESDA',
-    date: new Date().getFullYear().toString(),
+    date: '2023',
+    link: '/images/marlo2.jpg'
+  },
+  {
+    title: 'National Certificate II for Computer System Servicing',
+    issuer: 'TESDA',
+    date: '2023',
     link: '/images/marlo2.jpg'
   }
+
 ];
 
 const SOCIALS = [
